@@ -1,0 +1,21 @@
+language: android
+jdk: openjdk11
+sudo: required
+dist: trusty
+
+android:
+  components:
+    - tools
+    - platform-tools
+    - build-tools-30.0.3
+    - android-30
+    - extra-google-google_play_services
+    - extra-google-m2repository
+    - extra-android-m2repository
+    - addon-google_apis-google-30
+
+before_install:
+  - yes | sdkmanager "platforms;android-30"
+
+script:
+  - ./gradlew build
