@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "467357890294",
+    "project_id": "vchaa-2c9ad",
+    "storage_bucket": "vchaa-2c9ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467357890294:android:36962b26ede1a1d6135ed7",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALCBj7Q3Lmmj4h0a3pjbYPM7-Q135dbn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

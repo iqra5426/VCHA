@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_centerInParent="true"> <!-- Center the LinearLayout in the parent RelativeLayout -->
+
+        <!-- Email EditText -->
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"/>
+
+        <!-- Password EditText -->
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+
+        <!-- Confirm Password EditText -->
+        <EditText
+            android:id="@+id/editTextConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:visibility="gone"/> <!-- Initially hidden -->
+
+        <!-- Action Button (Login or Register) -->
+        <Button
+            android:id="@+id/buttonAction"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/black"
+            android:layout_height="wrap_content"
+            android:text="Login"/>
+
+        <!-- Toggle between Login and Register -->
+        <TextView
+            android:id="@+id/textViewAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Don't have an account? Register here"
+            android:textColor="@android:color/darker_gray"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

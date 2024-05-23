@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "985525108064",
+    "project_id": "voice-control-35eb9",
+    "storage_bucket": "voice-control-35eb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985525108064:android:5ae0a4c1bf249da9c5f205",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw0roXbXbKIfkY37i-Npjt6K33UMzMSy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
