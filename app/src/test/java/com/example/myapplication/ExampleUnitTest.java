@@ -2,7 +2,7 @@ package com.example.myapplication;
 
 import org.junit.Test;
 
-import static org.aunit.Assert.*;
+import static org.Junit.Assert.*;
 
 /**
  * Example local unit test, which will execute on the development machine (host).
